@@ -7,7 +7,7 @@ import { Mesh } from 'three'
 import { useEffect, useState } from 'react'
 
 function App() {
-    const gltf = useLoader(GLTFLoader, '/house-viewer/mala25.gltf')
+    const gltf = useLoader(GLTFLoader, '/house-viewer/mala26.gltf')
     const [isInit, setIsInit] = useState(false);
 
 
